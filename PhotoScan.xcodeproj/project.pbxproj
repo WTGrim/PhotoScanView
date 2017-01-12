@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DBAC32F1E1F839B003DCC10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAC32E1E1F839B003DCC10 /* main.m */; };
+		5DBAC3321E1F839B003DCC10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAC3311E1F839B003DCC10 /* AppDelegate.m */; };
+		5DBAC3351E1F839B003DCC10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAC3341E1F839B003DCC10 /* ViewController.m */; };
+		5DBAC3381E1F839B003DCC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAC3361E1F839B003DCC10 /* Main.storyboard */; };
+		5DBAC33A1E1F839B003DCC10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAC3391E1F839B003DCC10 /* Assets.xcassets */; };
+		5DBAC33D1E1F839B003DCC10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAC33B1E1F839B003DCC10 /* LaunchScreen.storyboard */; };
+		5DBAC3481E1F839B003DCC10 /* PhotoScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAC3471E1F839B003DCC10 /* PhotoScanTests.m */; };
+		5DBAC3531E1F839B003DCC10 /* PhotoScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAC3521E1F839B003DCC10 /* PhotoScanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DBAC3441E1F839B003DCC10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBAC3221E1F839B003DCC10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBAC3291E1F839B003DCC10;
+			remoteInfo = PhotoScan;
+		};
+		5DBAC34F1E1F839B003DCC10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBAC3221E1F839B003DCC10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBAC3291E1F839B003DCC10;
+			remoteInfo = PhotoScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DBAC32A1E1F839B003DCC10 /* PhotoScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBAC32E1E1F839B003DCC10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DBAC3301E1F839B003DCC10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DBAC3311E1F839B003DCC10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DBAC3331E1F839B003DCC10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DBAC3341E1F839B003DCC10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DBAC3371E1F839B003DCC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DBAC3391E1F839B003DCC10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DBAC33C1E1F839B003DCC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DBAC33E1E1F839B003DCC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBAC3431E1F839B003DCC10 /* PhotoScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBAC3471E1F839B003DCC10 /* PhotoScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoScanTests.m; sourceTree = "<group>"; };
+		5DBAC3491E1F839B003DCC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBAC34E1E1F839B003DCC10 /* PhotoScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBAC3521E1F839B003DCC10 /* PhotoScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoScanUITests.m; sourceTree = "<group>"; };
+		5DBAC3541E1F839B003DCC10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBAC3271E1F839B003DCC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAC3401E1F839B003DCC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAC34B1E1F839B003DCC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBAC3211E1F839B003DCC10 = {
+			isa = PBXGroup;
+			children = (
+				5DBAC32C1E1F839B003DCC10 /* PhotoScan */,
+				5DBAC3461E1F839B003DCC10 /* PhotoScanTests */,
+				5DBAC3511E1F839B003DCC10 /* PhotoScanUITests */,
+				5DBAC32B1E1F839B003DCC10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBAC32B1E1F839B003DCC10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAC32A1E1F839B003DCC10 /* PhotoScan.app */,
+				5DBAC3431E1F839B003DCC10 /* PhotoScanTests.xctest */,
+				5DBAC34E1E1F839B003DCC10 /* PhotoScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBAC32C1E1F839B003DCC10 /* PhotoScan */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAC3301E1F839B003DCC10 /* AppDelegate.h */,
+				5DBAC3311E1F839B003DCC10 /* AppDelegate.m */,
+				5DBAC3331E1F839B003DCC10 /* ViewController.h */,
+				5DBAC3341E1F839B003DCC10 /* ViewController.m */,
+				5DBAC3361E1F839B003DCC10 /* Main.storyboard */,
+				5DBAC3391E1F839B003DCC10 /* Assets.xcassets */,
+				5DBAC33B1E1F839B003DCC10 /* LaunchScreen.storyboard */,
+				5DBAC33E1E1F839B003DCC10 /* Info.plist */,
+				5DBAC32D1E1F839B003DCC10 /* Supporting Files */,
+			);
+			path = PhotoScan;
+			sourceTree = "<group>";
+		};
+		5DBAC32D1E1F839B003DCC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAC32E1E1F839B003DCC10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DBAC3461E1F839B003DCC10 /* PhotoScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAC3471E1F839B003DCC10 /* PhotoScanTests.m */,
+				5DBAC3491E1F839B003DCC10 /* Info.plist */,
+			);
+			path = PhotoScanTests;
+			sourceTree = "<group>";
+		};
+		5DBAC3511E1F839B003DCC10 /* PhotoScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBAC3521E1F839B003DCC10 /* PhotoScanUITests.m */,
+				5DBAC3541E1F839B003DCC10 /* Info.plist */,
+			);
+			path = PhotoScanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBAC3291E1F839B003DCC10 /* PhotoScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBAC3571E1F839B003DCC10 /* Build configuration list for PBXNativeTarget "PhotoScan" */;
+			buildPhases = (
+				5DBAC3261E1F839B003DCC10 /* Sources */,
+				5DBAC3271E1F839B003DCC10 /* Frameworks */,
+				5DBAC3281E1F839B003DCC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoScan;
+			productName = PhotoScan;
+			productReference = 5DBAC32A1E1F839B003DCC10 /* PhotoScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DBAC3421E1F839B003DCC10 /* PhotoScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBAC35A1E1F839B003DCC10 /* Build configuration list for PBXNativeTarget "PhotoScanTests" */;
+			buildPhases = (
+				5DBAC33F1E1F839B003DCC10 /* Sources */,
+				5DBAC3401E1F839B003DCC10 /* Frameworks */,
+				5DBAC3411E1F839B003DCC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBAC3451E1F839B003DCC10 /* PBXTargetDependency */,
+			);
+			name = PhotoScanTests;
+			productName = PhotoScanTests;
+			productReference = 5DBAC3431E1F839B003DCC10 /* PhotoScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DBAC34D1E1F839B003DCC10 /* PhotoScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBAC35D1E1F839B003DCC10 /* Build configuration list for PBXNativeTarget "PhotoScanUITests" */;
+			buildPhases = (
+				5DBAC34A1E1F839B003DCC10 /* Sources */,
+				5DBAC34B1E1F839B003DCC10 /* Frameworks */,
+				5DBAC34C1E1F839B003DCC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBAC3501E1F839B003DCC10 /* PBXTargetDependency */,
+			);
+			name = PhotoScanUITests;
+			productName = PhotoScanUITests;
+			productReference = 5DBAC34E1E1F839B003DCC10 /* PhotoScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBAC3221E1F839B003DCC10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Dwt;
+				TargetAttributes = {
+					5DBAC3291E1F839B003DCC10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5DBAC3421E1F839B003DCC10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DBAC3291E1F839B003DCC10;
+					};
+					5DBAC34D1E1F839B003DCC10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DBAC3291E1F839B003DCC10;
+					};
+				};
+			};
+			buildConfigurationList = 5DBAC3251E1F839B003DCC10 /* Build configuration list for PBXProject "PhotoScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBAC3211E1F839B003DCC10;
+			productRefGroup = 5DBAC32B1E1F839B003DCC10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBAC3291E1F839B003DCC10 /* PhotoScan */,
+				5DBAC3421E1F839B003DCC10 /* PhotoScanTests */,
+				5DBAC34D1E1F839B003DCC10 /* PhotoScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBAC3281E1F839B003DCC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBAC33D1E1F839B003DCC10 /* LaunchScreen.storyboard in Resources */,
+				5DBAC33A1E1F839B003DCC10 /* Assets.xcassets in Resources */,
+				5DBAC3381E1F839B003DCC10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAC3411E1F839B003DCC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAC34C1E1F839B003DCC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBAC3261E1F839B003DCC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBAC3351E1F839B003DCC10 /* ViewController.m in Sources */,
+				5DBAC3321E1F839B003DCC10 /* AppDelegate.m in Sources */,
+				5DBAC32F1E1F839B003DCC10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAC33F1E1F839B003DCC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBAC3481E1F839B003DCC10 /* PhotoScanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBAC34A1E1F839B003DCC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBAC3531E1F839B003DCC10 /* PhotoScanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DBAC3451E1F839B003DCC10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBAC3291E1F839B003DCC10 /* PhotoScan */;
+			targetProxy = 5DBAC3441E1F839B003DCC10 /* PBXContainerItemProxy */;
+		};
+		5DBAC3501E1F839B003DCC10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBAC3291E1F839B003DCC10 /* PhotoScan */;
+			targetProxy = 5DBAC34F1E1F839B003DCC10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DBAC3361E1F839B003DCC10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBAC3371E1F839B003DCC10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DBAC33B1E1F839B003DCC10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBAC33C1E1F839B003DCC10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DBAC3551E1F839B003DCC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DBAC3561E1F839B003DCC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DBAC3581E1F839B003DCC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dwt.PhotoScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DBAC3591E1F839B003DCC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dwt.PhotoScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DBAC35B1E1F839B003DCC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dwt.PhotoScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoScan.app/PhotoScan";
+			};
+			name = Debug;
+		};
+		5DBAC35C1E1F839B003DCC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dwt.PhotoScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoScan.app/PhotoScan";
+			};
+			name = Release;
+		};
+		5DBAC35E1E1F839B003DCC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dwt.PhotoScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoScan;
+			};
+			name = Debug;
+		};
+		5DBAC35F1E1F839B003DCC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dwt.PhotoScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBAC3251E1F839B003DCC10 /* Build configuration list for PBXProject "PhotoScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBAC3551E1F839B003DCC10 /* Debug */,
+				5DBAC3561E1F839B003DCC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBAC3571E1F839B003DCC10 /* Build configuration list for PBXNativeTarget "PhotoScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBAC3581E1F839B003DCC10 /* Debug */,
+				5DBAC3591E1F839B003DCC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DBAC35A1E1F839B003DCC10 /* Build configuration list for PBXNativeTarget "PhotoScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBAC35B1E1F839B003DCC10 /* Debug */,
+				5DBAC35C1E1F839B003DCC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DBAC35D1E1F839B003DCC10 /* Build configuration list for PBXNativeTarget "PhotoScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBAC35E1E1F839B003DCC10 /* Debug */,
+				5DBAC35F1E1F839B003DCC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBAC3221E1F839B003DCC10 /* Project object */;
+}
